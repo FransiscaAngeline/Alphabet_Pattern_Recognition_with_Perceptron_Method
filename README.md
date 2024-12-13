@@ -1,5 +1,10 @@
 # PBL Perceptron Pengenalan Pola Huruf Alphabet
+## Group 1 
+- Fakhri Khoiruzaki (2241160060)
+- Fransisca Angeline Susanto (2241160094)
+- Qoulan Nurza Sadiida Enmala (2241160054)
 
+## Deskripsi 
 Proyek ini menggunakan algoritma **Perceptron** untuk mengenali pola huruf alfabet yang digambar oleh pengguna pada grid 5x5. Proyek ini dibangun dengan menggunakan HTML untuk tampilan antarmuka pengguna (frontend), dan Flask untuk mengelola backend serta menangani endpoint pengenalan pola.
 
 ## Fitur
