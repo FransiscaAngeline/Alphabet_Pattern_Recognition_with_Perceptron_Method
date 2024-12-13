@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+     href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+     crossorigin="anonymous"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <title>Alphabet Pattern Recognition with Perceptron Method</title>
+
+    <style>
+       .button_container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        gap: 20px; 
+        margin-top: 30px; 
+      }
+
+      .button_go, .button_team {
+        background-color: #c2fbd7;
+        border-radius: 100px;
+        box-shadow: 
+          rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,
+          rgba(44, 187, 99, .15) 0 1px 2px,
+          rgba(44, 187, 99, .15) 0 2px 4px,
+          rgba(44, 187, 99, .15) 0 4px 8px,
+          rgba(44, 187, 99, .15) 0 8px 16px,
+          rgba(44, 187, 99, .15) 0 16px 32px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        font-family: 'Arial', sans-serif;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 250ms;
+        border: 0;
+        font-size: 16px;
+      }
+
+      .button_go:hover, .button_team:hover {
+        box-shadow: 
+          rgba(44, 187, 99, .35) 0 -25px 18px -14px inset,
+          rgba(44, 187, 99, .25) 0 1px 2px,
+          rgba(44, 187, 99, .25) 0 2px 4px,
+          rgba(44, 187, 99, .25) 0 4px 8px,
+          rgba(44, 187, 99, .25) 0 8px 16px,
+          rgba(44, 187, 99, .25) 0 16px 32px;
+        transform: scale(1.05);
+      }
+
+      .button_go {
+        background-color: #c2fbd7;
+      }
+
+      .button_team {
+        background-color: #c2c5fb;
+      }
+    </style>
+  </head>
+
+  <body id="page-top" style="font-family: sans-serif;">
+
+    <!-- Jumbotron -->
+    <div class="container-fluid banner" id="beranda">
+      <div class="container text-center">
+        <h1 class="display-4">Alphabet Pattern Recognition with Perceptron Method</h1>
+        
+        <!-- Button Container -->
+        <div class="button_container">
+          <a href="index.html">
+            <button class="button_go" role="button">GO</button>
+          </a>
+          <a href="team.html">
+            <button class="button_team" role="button">Lihat Anggota Grup</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Jumbotron -->
+
+  </body>
+</html>
