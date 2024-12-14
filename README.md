@@ -1,30 +1,30 @@
-# PBL Perceptron Pengenalan Pola Huruf Alphabet
-## Group 1 
+# Alphabet PAttern Recognition with Perceptron Method
+## D4 JTD 3A Group 1 
 - Fakhri Khoiruzaki (2241160060)
 - Fransisca Angeline Susanto (2241160094)
 - Qoulan Nurza Sadiida Enmala (2241160054)
 
-## Deskripsi 
-Proyek ini menggunakan algoritma **Perceptron** untuk mengenali pola huruf alfabet yang digambar oleh pengguna pada grid 5x5. Proyek ini dibangun dengan menggunakan HTML untuk tampilan antarmuka pengguna (frontend), dan Flask untuk mengelola backend serta menangani endpoint pengenalan pola.
+## Description 
+This project uses the **Perceptron** method to recognize alphabet letter patterns drawn by users on a 5x5 grid. This project is built using HTML for the frontend, and Flask to manage the backend and handle the pattern recognition endpoints.
 
-## Fitur
+## Features
 
-- **Grid 5x5**: Pengguna dapat menggambar pola huruf alfabet dengan mengklik kotak-kotak pada grid 5x5.
-- **Pengenalan Pola**: Setelah pola digambar, sistem akan mengidentifikasi huruf yang dimasukkan menggunakan algoritma Perceptron.
-- **Backend Flask**: Flask berfungsi untuk menangani permintaan pengenalan pola dan memberikan hasil prediksi.
-- **Interaktivitas**: Pengguna dapat menggambar ulang pola dan mencoba pengenalan untuk huruf yang berbeda.
+- **5x5 grid**: Users can draw alphabet letter patterns by clicking the boxes on the 5x5 grid.
+- **Pattern Recognition**: Once the pattern is drawn, the system will identify the entered letters using the Perceptron algorithm.
+- Flask Backend**: Flask serves to handle pattern recognition requests and provide prediction results.
+- Interactivity**: Users can redraw patterns and try recognition for different letters.
 
-## Teknologi yang Digunakan
+## Technology Used
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Flask (Python)
-- **Machine Learning**: Algoritma Perceptron
-- **Library**: Flask, NumPy (untuk komputasi), Matplotlib (opsional untuk visualisasi)
+- **Machine Learning**: Perceptron Algorithm
+- **Library**: Flask (for web framework),NumPy (for numerical computation), JSON (for data storage and reading), OS (for file system operation)
 
 
-## Model Perceptron
-Model Perceptron diimplementasikan dalam file model/perceptron.py. Model ini telah dilatih dengan data pola huruf 5x5 untuk mengenali alfabet A-Z. Proses pelatihan dapat dilakukan ulang jika diperlukan, dan kode pelatihan disertakan dalam file ini.
+## Perceptron model
+The Perceptron model is implemented in the app.py file. The pattern has been trained with 5x5 letter pattern data to recognize the A-Z alphabet. The training process can be re-executed if required, and the training code is included in this file.
 
-## Pelatihan dan Pengujian  
-- Pelatihan: Coba masukkan beberapa pola huruf dan periksa apakah sistem mengenali huruf dengan benar.
-- Pengujian Model: Model dapat diuji dengan dataset yang lebih besar untuk meningkatkan akurasi pengenalan.
+## Training and Testing  
+- Training: Try entering some letter patterns and check if the system recognizes the letters correctly.
+- Testing: Users can input letter patterns according to those in the database that has been created or input different letter patterns to test whether the system recognizes letters or not. 
