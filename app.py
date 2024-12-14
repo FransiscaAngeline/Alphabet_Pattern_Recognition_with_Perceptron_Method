@@ -233,7 +233,7 @@ def index():
     """
     App main page
     """
-    return render_template('home.html')  # Ganti dengan home.html
+    return render_template('home.html')  
 
 @app.route('/<page>.html')
 def render_html(page):
